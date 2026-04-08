@@ -1,0 +1,6 @@
+node_modules/
+config/credentials.json
+config/token.json
+config/service-account.json
+.DS_Store
+*.log

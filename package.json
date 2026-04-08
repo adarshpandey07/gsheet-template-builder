@@ -1,0 +1,22 @@
+{
+  "name": "gsheet-template-builder",
+  "version": "1.0.0",
+  "description": "Automated Google Sheets template builder for digital product sales",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "setup": "node scripts/setup-auth.js",
+    "auth": "node src/auth/setup.js",
+    "build:budget": "node src/templates/budget-tracker.js",
+    "build:bookkeeping": "node src/templates/bookkeeping.js",
+    "list-sheets": "node scripts/list-sheets.js"
+  },
+  "keywords": ["google-sheets", "template", "budget", "etsy", "digital-product"],
+  "author": "Adarshh",
+  "license": "ISC",
+  "dependencies": {
+    "google-auth-library": "^10.6.2",
+    "googleapis": "^171.4.0",
+    "open": "^11.0.0"
+  }
+}
